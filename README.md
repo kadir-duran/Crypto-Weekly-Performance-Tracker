@@ -17,7 +17,7 @@ Follow these steps to set up and run the tracker locally:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/crypto-weekly-tracker.git](https://github.com/YOUR_USERNAME/crypto-weekly-tracker.git)
+    git clone [https://github.com/kadir-duran/crypto-weekly-tracker.git](https://github.com/kadir-duran/crypto-weekly-tracker.git)
     cd crypto-weekly-tracker
     ```
 
