@@ -33,37 +33,4 @@ Execute the following command in your terminal to fire up the application:
 
 ```bash
 python app.py
-
-
-Analysis Time: 2026-07-17 23:15:42
----------------------------------------------------------------------------
-Symbol     | Weekly Open ($)      | Current Price ($) | Weekly Return   
----------------------------------------------------------------------------
-BTCUSDT    | 62450.50               | 64120.20          | 🔺 +2.67%
-ETHUSDT    | 3420.10                | 3385.40           | 🔻 -1.01%
-SOLUSDT    | 142.250                | 151.800           | 🔺 +6.71%
-DOGEUSDT   | 0.124500               | 0.121200          | 🔻 -2.65%
-ZECUSDT    | 28.450                 | 29.100            | 🔺 +2.28%
-XRPUSDT    | 0.5840                 | 0.6125            | 🔺 +4.88%
-
-
-
-## 📊 Methodology
-
-The application implements the standard financial percentage return formula relative to a fixed start point:
-
-$$\text{Weekly Return} = \frac{\text{Current Price} - \text{Weekly Open Price}}{\text{Weekly Open Price}} \times 100$$
-
-*   **Weekly Open:** The exact opening price of the Binance `1w` candlestick interval (synchronized to Monday 00:00 UTC).
-*   **Current Price:** Retrieved asynchronously in real-time from the Binance `/ticker/price` endpoint.
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! If you want to expand the project, feel free to check the **Issues** page or open a **Pull Request**. 
-
-Here are some ideas for future roadmap improvements:
-1. Adding multi-exchange support (e.g., Coinbase, KuCoin APIs).
-2. Implementing automatic local logging (`.csv` or `.json` exports).
-3. Developing a simple GUI or web dashboard using Streamlit.
+```
